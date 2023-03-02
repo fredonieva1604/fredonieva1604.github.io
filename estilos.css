@@ -1,0 +1,89 @@
+/*            GENERAL         */
+.main-contenedor {
+    display: flex   ;
+    width: 1500px;
+}
+h1,
+h2 {
+    text-transform: uppercase;
+}
+/*----------- aside ----------*/
+aside {
+    background-color: #647087;
+    width: 20%;
+    margin-right: 3%;
+}
+aside * {
+    color: white;
+}
+aside h2 {
+    letter-spacing: 5px;
+}
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+#foto img{
+    border-radius: 25px;
+    width: 200px;
+    }
+.vacio {
+    clear: both;
+}
+dt,
+dd {
+    line-height: 2em;
+    border-top: 5px solid white;
+}
+dt {
+    font-weight: bolder;
+    clear: left;
+    width: 50%;
+    float: left;
+}
+dd {
+    clear: right;
+    width: 30%;
+    float: left;
+    margin: 0;
+    }
+.informatica ul {
+    list-style-type: none;
+}
+meter {
+    display: block;
+    width: 70%;
+}
+meter::-webkit-meter-optimum-value {
+    background: none;
+    background-color: lightseagreen ;
+}
+/*----------- main ----------*/
+main {
+    background-color: lightcyan;
+}
+.nombre {
+    background-color: lightgreen;
+    box-shadow: 1px 5px 5px #647087 ;
+    padding: 15%;
+}
+.nombre h2 {
+    color: white;
+    border-top: 3px solid white;
+}
+main section h2 {
+    letter-spacing: 3px;
+    }
+p {
+    line-height: 2em;
+    background-color: lightcyan;
+    padding: 5px;
+}
+article h3
+article h4 {
+    font-weight: bold;
+}
+#contacto {
+    line-height: 2em;
+    text-align: right;
+    background-color: aliceblue;
+}
